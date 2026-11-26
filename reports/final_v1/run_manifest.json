@@ -1,0 +1,39 @@
+{
+  "completed_utc": "2026-10-15T12:49:32.721681+00:00",
+  "final_test_evaluated": true,
+  "freeze_sha256": "2479bd3fd6dac3c8c006b927587ba2f4c0d0471d46fee8b8241ace8452babb78",
+  "primary_result": {
+    "endpoint": "500-label compact-logistic intercept update minus no update weighted Brier",
+    "mean_difference": -0.0023741243166270046,
+    "percentile_95_interval": [
+      -0.0036345676976414975,
+      -0.0007369328622506393
+    ],
+    "successful_point_draws": 30,
+    "planned_point_draws": 30,
+    "bootstrap_replicates": 1000,
+    "valid_bootstrap_replicates": 1000,
+    "bootstrap_failed_draw_fraction": 0.0,
+    "conditional_on_source_fit_and_target_split": true,
+    "test_n": 3277,
+    "test_positive": 435,
+    "static_metrics": {
+      "brier": 0.11356026571968462,
+      "log_loss": 0.40043467374645675,
+      "observed_prevalence": 0.13036713752422238,
+      "mean_probability": 0.07183598318334788,
+      "auroc": 0.6453921026071148,
+      "average_precision": 0.20874957386369822
+    },
+    "intercept_equal_workload_selection_preserved": true
+  },
+  "outputs": {
+    "reports/final_v1/draw_metrics.csv": "5645edd013aec2442bad99da89f56f4041ae9310d27038b70ad34039089c9665",
+    "reports/final_v1/operating_points.csv": "ad0c5655c65c7f0fd577f60095232b72f8e177e5c2c04a5f9f4a570bc1cffccf",
+    "reports/final_v1/prediction_matrix.npz": "06da71a036fc2d1f9b1a623335aae51a3ab85071d7fa54f57484a5059faa8d75",
+    "reports/final_v1/primary_bootstrap.csv": "deca9bac2ac02652b76691ecdbeee40c071a3fde51db142f497de9fb6b24f089",
+    "reports/final_v1/primary_result.json": "66eccf81f799ffafda1661494a902358bc3d072a010766ef6952a0fec3dd36e3",
+    "reports/final_v1/strategy_summary.csv": "3694d818c49c5920ae394d4a556eedc06ae0d1c5788c988875538d41192c78d4",
+    "reports/final_v1/summary.md": "4f3befb5e10d8776d2e404b0d494b598e90a03c7662acc009201d4ca7b9eb69f"
+  }
+}

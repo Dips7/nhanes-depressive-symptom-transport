@@ -1,0 +1,16 @@
+{
+  "frozen_utc": "2026-10-15T12:46:56.539568+00:00",
+  "files": {
+    "config/updating_v2.json": "ef88f89fe53aa7f01e1e13555a3bce40d74b42f09ef4cfce81b206d54ce10933",
+    "protocol_target_preparation_v1.md": "73061422c81e586d9f062369e8f5f9dec766be4ca07089ad7cc2753ccd3f3b4a",
+    "protocol_target_preparation_v2.md": "95af7f138e7ee7ebc4726c9fcc31cae5a11ea9d9f31abcaf008da78a1f80bea5",
+    "src/recalibration.py": "08f727d34d40680eddf814b79e14add9c4863737ab5155e18690bba6f8047976",
+    "src/prepare_updates.py": "f747fa438a5b1e642248454f22229be77120d84c51fd284fb491b5742ec54dc6",
+    "src/model_utils.py": "8b2d797330514574147292c805b2bf4310c35cfcec907f65f693f9c5fe93ff57",
+    "manifests/participant_splits.csv": "150275193a5c74702905b95bdc226bb21744432cd0b4309b3d7adf055b399bc1",
+    "models/source_v1/compact_logistic.joblib": "f5640044f0b56e860898fb15162a170fc1617823ddf1ffcde42a569995feb95e",
+    "data/processed/eligibility_2021-2023.csv": "21cd894c246ddb7f7ffe160a326bc853ecb3149306ca7a7b1188d0fa5724864c"
+  },
+  "target_test_predictions_generated": false,
+  "external_preregistration": false
+}

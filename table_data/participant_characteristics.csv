@@ -1,0 +1,18 @@
+Characteristic,Development,Validation,Updating,Final test
+Participants n,20977,5068,2178,3277
+PHQ ≥10 n,1889,459,288,435
+PHQ ≥10 weighted %,7.91,8.53,12.02,13.04
+Age median [IQR],"46.00 [31.00, 60.00]","47.00 [32.00, 61.00]","47.00 [32.00, 62.00]","47.00 [32.00, 63.00]"
+Poverty income ratio median [IQR],"2.89 [1.38, 5.00]","3.08 [1.58, 5.00]","3.11 [1.58, 5.00]","3.11 [1.67, 5.00]"
+BMI median [IQR],"27.80 [24.10, 32.50]","28.60 [24.60, 33.60]","28.30 [24.60, 33.10]","28.20 [24.40, 33.10]"
+Female weighted %,50.97,51.43,52.14,49.96
+Male weighted %,49.03,48.57,47.86,50.04
+Age 18 to 19 weighted %,3.25,3.39,3.69,3.51
+Partnered weighted %,60.99,60.65,58.61,57.47
+Previously partnered weighted %,17.84,17.86,16.51,18.92
+Never married weighted %,17.88,18.07,21.16,20.04
+Current smoking weighted %,18.76,16.89,14.02,13.75
+Former smoking weighted %,24.11,24.35,22.46,22.78
+Never 100 cigarettes weighted %,53.84,55.38,59.52,59.94
+Income ratio missing weighted %,6.58,10.32,12.59,12.93
+BMI missing weighted %,0.76,0.87,0.81,0.65

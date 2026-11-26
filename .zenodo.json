@@ -1,0 +1,31 @@
+{
+  "title": "Replication package: Limited-label updating of an adult depressive-symptom model across NHANES survey periods",
+  "upload_type": "software",
+  "license": "MIT",
+  "description": "Reviewer replication package (code, unit tests, frozen configurations, participant-split/updating-sample manifests, aggregate table CSVs, and audit reports) for 'Limited-label updating of an adult depressive-symptom model across NHANES survey periods: a survey-weighted transport study'. Raw NHANES XPT files are downloaded directly from CDC NCHS via src/download_data.py.",
+  "creators": [
+    {
+      "name": "Bhattarai, Binod",
+      "affiliation": "Islington College, Kathmandu, Nepal",
+      "orcid": "0009-0006-6691-5264"
+    },
+    {
+      "name": "Gurung, Dipesh",
+      "affiliation": "Lord Buddha Education Foundation (LBEF Campus), Kathmandu, Nepal",
+      "orcid": "0009-0009-0335-2267"
+    },
+    {
+      "name": "Thakur, R. N.",
+      "affiliation": "Lord Buddha Education Foundation (LBEF Campus), Kathmandu, Nepal",
+      "orcid": "0000-0003-3911-4358"
+    }
+  ],
+  "keywords": [
+    "NHANES",
+    "depressive symptoms",
+    "calibration",
+    "model updating",
+    "temporal transport",
+    "survey weights"
+  ]
+}

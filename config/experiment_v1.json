@@ -1,0 +1,33 @@
+{
+  "version": "1.0-source-development",
+  "seed": 42,
+  "primary_model": "compact_logistic",
+  "primary_endpoint": "weighted_target_brier_intercept_update_minus_no_update",
+  "primary_updating_budget": 500,
+  "updating_budgets": [100, 250, 500, 1000],
+  "updating_repetitions": 30,
+  "minimum_updating_events": 10,
+  "minimum_updating_nonevents": 10,
+  "updating_failure_policy": "record_failure_no_redraw; paired comparisons among successful fits with failure rates reported",
+  "probability_clip": 1e-6,
+  "feature_sets": {
+    "compact": {"numeric": ["age", "income_poverty_ratio"], "categorical": ["sex_recorded", "education", "marital_status", "smoking_status"]},
+    "expanded_bmi": {"numeric": ["age", "income_poverty_ratio", "bmi"], "categorical": ["sex_recorded", "education", "marital_status", "smoking_status"]}
+  },
+  "source_selection": "mean_weighted_brier_across_four_leave_one_cycle_out_folds",
+  "logistic_grid": [{"C": 0.1}, {"C": 1.0}, {"C": 10.0}],
+  "boosting_grid": [
+    {"max_leaf_nodes": 7, "learning_rate": 0.05},
+    {"max_leaf_nodes": 7, "learning_rate": 0.1},
+    {"max_leaf_nodes": 15, "learning_rate": 0.05},
+    {"max_leaf_nodes": 15, "learning_rate": 0.1}
+  ],
+  "boosting_fixed": {"max_iter": 150, "min_samples_leaf": 40, "l2_regularization": 1.0, "early_stopping": false},
+  "source_validation_cycle": "2017-2018",
+  "source_validation_bootstrap": {"replicates": 1000, "method": "Rao-Wu rescaled stratified PSU bootstrap conditional on frozen source fit", "seed": 20261015},
+  "fixed_probability_threshold": 0.1,
+  "workload_fraction": 0.1,
+  "thread_limit": 2,
+  "target_test_evaluation_enabled": false,
+  "novelty_status": "application_or_replication; no_first_of_kind_claim; inaccessible_conference_full_methods_pending"
+}

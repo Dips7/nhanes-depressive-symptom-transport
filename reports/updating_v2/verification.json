@@ -1,0 +1,9 @@
+{
+  "all_passed": true,
+  "independent_missing_category_handling_verified": true,
+  "pool_prediction_max_difference": 9.71445146547012e-17,
+  "unique_nested_sample_sets": 120,
+  "target_test_ids_in_updates": 0,
+  "target_test_predictions_generated": false,
+  "prepared_refit_models_verified": 113
+}

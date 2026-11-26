@@ -1,0 +1,44 @@
+{
+  "checks": [
+    {
+      "model": "prevalence_reference",
+      "brier_verified": 0.07807004103292683,
+      "weighted_auc_verified": 0.5,
+      "weighted_ap_verified": 0.08530963505072679,
+      "max_reproduction_difference": 0.0
+    },
+    {
+      "model": "compact_logistic",
+      "brier_verified": 0.07451838140808448,
+      "weighted_auc_verified": 0.6908755126899377,
+      "weighted_ap_verified": 0.18443536759260565,
+      "max_reproduction_difference": 9.71445146547012e-17
+    },
+    {
+      "model": "compact_boosting",
+      "brier_verified": 0.07481274081249814,
+      "weighted_auc_verified": 0.6841960800033855,
+      "weighted_ap_verified": 0.1792829033952184,
+      "max_reproduction_difference": 9.71445146547012e-17
+    },
+    {
+      "model": "expanded_bmi_logistic",
+      "brier_verified": 0.07447579300966763,
+      "weighted_auc_verified": 0.692922681063818,
+      "weighted_ap_verified": 0.1878254898909204,
+      "max_reproduction_difference": 9.8879238130678e-17
+    },
+    {
+      "model": "expanded_bmi_boosting",
+      "brier_verified": 0.07478511996810343,
+      "weighted_auc_verified": 0.6821271083253934,
+      "weighted_ap_verified": 0.18488376494106756,
+      "max_reproduction_difference": 9.8879238130678e-17
+    }
+  ],
+  "all_passed": true,
+  "target_test_predictions_generated": false,
+  "validation_ids_verified": 5068,
+  "freeze_and_artifact_hashes_verified": true,
+  "method": "direct weighted squared error; independent tied-rank AUC and grouped precision AP; reload saved pipelines"
+}

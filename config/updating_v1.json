@@ -1,0 +1,19 @@
+{
+  "version": "1.0-target-preparation",
+  "source_model": "compact_logistic",
+  "strategies": ["no_update", "intercept", "intercept_slope", "refit"],
+  "budgets": [100, 250, 500, 1000],
+  "repetitions": 30,
+  "sample_seed": 20261016,
+  "minimum_events": 10,
+  "minimum_nonevents": 10,
+  "probability_clip": 1e-6,
+  "coefficient_failure_limit": 40,
+  "gradient_tolerance": 1e-6,
+  "minimum_hessian_eigenvalue": 1e-8,
+  "maximum_hessian_condition": 1e10,
+  "intercept_bracket": [-40, 40],
+  "refit": "fresh compact preprocessing and logistic classifier; fixed source-selected C; no tuning; mean-one fitting weights",
+  "failure_handling": "no redraw or fallback; failed methods stored explicitly and excluded only from their paired contrasts",
+  "target_test_evaluation_enabled": false
+}

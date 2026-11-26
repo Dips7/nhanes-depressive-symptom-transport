@@ -1,0 +1,22 @@
+{
+  "phase": "source development only",
+  "frozen_utc": "2026-10-15T08:10:08.418428+00:00",
+  "external_preregistration": false,
+  "novelty_clearance": "provisional application/replication",
+  "target_test_predictions_at_freeze": false,
+  "files": {
+    "protocol_v1.md": "8491ee2ac1da828a25c97dea5adb7cef956d9acb3cfe02f519c50e98647e92cb",
+    "config/study.json": "9786fe35f2e8257b4199782ac8cd35c04190ef18a8d754d8d656991cb6add1dc",
+    "config/experiment_v1.json": "ccec8a11d278b0d740b74d661acb1e48cde3e80407a5cc2f7d8c9293922ba384",
+    "requirements-lock.txt": "d1f21021180456032d040faf5f365d29339aa9e23c5895be85b311a42c6731ba",
+    "manifests/participant_splits.csv": "150275193a5c74702905b95bdc226bb21744432cd0b4309b3d7adf055b399bc1",
+    "src/model_utils.py": "8b2d797330514574147292c805b2bf4310c35cfcec907f65f693f9c5fe93ff57",
+    "src/train_source.py": "14f58e1e6f8867a837a210db4cb700cd635e989f01d6873411b27f7809a270ad",
+    "src/audit_data.py": "3c8316e17097dbcd6e32a967980d539ab60e010bc391f3ba9505694a72155a40",
+    "data/processed/eligibility_2009-2010.csv": "63f97c5432aeb8fb94203b4750a5a3d87c22db81787493576c9237b27bf3e181",
+    "data/processed/eligibility_2011-2012.csv": "892393b3f3125d4a6c2a4a9d9c724b1f928876936c278da7f475269fff709f05",
+    "data/processed/eligibility_2013-2014.csv": "9c9c1d7ce6e867b0a1156819a54e52208c61cc111c1c2840d1ce4739331833c0",
+    "data/processed/eligibility_2015-2016.csv": "9222435be439c178ec8260ddc82dc675ed43930f0841adbc826f8cba6275ab2f",
+    "data/processed/eligibility_2017-2018.csv": "91c0a0cfd9714b8c298d0fde50cd3280792f39f3468d304674ae2608efb2c983"
+  }
+}

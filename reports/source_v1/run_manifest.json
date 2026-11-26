@@ -1,0 +1,47 @@
+{
+  "completed_utc": "2026-10-15T08:10:39.513093+00:00",
+  "duration_seconds": 29.45300000000134,
+  "n_train": 20977,
+  "n_validation": 5068,
+  "validation_positive": 459,
+  "source_freeze_sha256": "0a2ece54ab3ceefad1b8f08b781d3dc73cd1fb529a6792776115aa43471fd187",
+  "input_files": {
+    "data/processed/eligibility_2009-2010.csv": "63f97c5432aeb8fb94203b4750a5a3d87c22db81787493576c9237b27bf3e181",
+    "data/processed/eligibility_2011-2012.csv": "892393b3f3125d4a6c2a4a9d9c724b1f928876936c278da7f475269fff709f05",
+    "data/processed/eligibility_2013-2014.csv": "9c9c1d7ce6e867b0a1156819a54e52208c61cc111c1c2840d1ce4739331833c0",
+    "data/processed/eligibility_2015-2016.csv": "9222435be439c178ec8260ddc82dc675ed43930f0841adbc826f8cba6275ab2f",
+    "data/processed/eligibility_2017-2018.csv": "91c0a0cfd9714b8c298d0fde50cd3280792f39f3468d304674ae2608efb2c983"
+  },
+  "target_data_loaded": false,
+  "target_predictions_generated": false,
+  "models": [
+    "prevalence_reference",
+    "compact_logistic",
+    "compact_boosting",
+    "expanded_bmi_logistic",
+    "expanded_bmi_boosting"
+  ],
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "sklearn": "1.9.1",
+  "numpy": "2.5.4",
+  "pandas": "3.0.6",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "output_hashes": {
+    "reports/source_v1/age20_sensitivity.csv": "c2cc4b881cf1632240eb928ed901be8f59d75bebdbc912dae13cc5e3b5922f5b",
+    "reports/source_v1/bootstrap_metrics.csv": "453d58dc2b1117d90fe5712255796f2701d7d1c048260b8efae6467e74ce0f0d",
+    "reports/source_v1/calibration_bins.csv": "5915a97426f31e42984181059079efd0ecf02b2398ae063f4dc78767b7ae60b7",
+    "reports/source_v1/cv_candidates.csv": "bb2231046b7c5b25bbd03e6cb3d01d19399ad850744c2ac322d12788374ad97e",
+    "reports/source_v1/cv_folds.csv": "e6fe754300d78c600ddd424de332edacb2e17c96f5f2ec2e3d5cab31d02bff20",
+    "reports/source_v1/selected_parameters.json": "847adae3422ce5966c500f3f4657562796eb6ef37364a5f6c1929693abac17f7",
+    "reports/source_v1/validation_intervals.csv": "8fe76cfba037ff9636eeea52c2b55708b57d336fc7904442fe0aad7be017b65c",
+    "reports/source_v1/validation_metrics.csv": "7a5b1b6a2579c9539056e8fb5f32a450c598c3ab21c4d999de0b89e613defb10",
+    "reports/source_v1/validation_operating_points.csv": "c16f30045160802969ce6138885f44618b2179af246b4647e979eb2497c8af44",
+    "reports/source_v1/validation_predictions.csv": "c060959ca18426ba17a95879f772ccb2624198d0f7007c9895d01cf391d2a287"
+  },
+  "model_hashes": {
+    "models/source_v1/compact_boosting.joblib": "05afd3fc09c7f15bd2c486d9bfad3ff528f7fcdbbdbc4e78773d4bcdc8c15106",
+    "models/source_v1/compact_logistic.joblib": "f5640044f0b56e860898fb15162a170fc1617823ddf1ffcde42a569995feb95e",
+    "models/source_v1/expanded_bmi_boosting.joblib": "659d588539d827869dda341bbb843e819e01ad8466b4d2bcfa96c8ce0680a8fa",
+    "models/source_v1/expanded_bmi_logistic.joblib": "b686db1309df79e49dcbd206e177d1ae68bd7b3fc297356779d4e891475d329d"
+  }
+}

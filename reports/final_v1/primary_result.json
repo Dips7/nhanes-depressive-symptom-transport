@@ -1,0 +1,25 @@
+{
+  "endpoint": "500-label compact-logistic intercept update minus no update weighted Brier",
+  "mean_difference": -0.0023741243166270046,
+  "percentile_95_interval": [
+    -0.0036345676976414975,
+    -0.0007369328622506393
+  ],
+  "successful_point_draws": 30,
+  "planned_point_draws": 30,
+  "bootstrap_replicates": 1000,
+  "valid_bootstrap_replicates": 1000,
+  "bootstrap_failed_draw_fraction": 0.0,
+  "conditional_on_source_fit_and_target_split": true,
+  "test_n": 3277,
+  "test_positive": 435,
+  "static_metrics": {
+    "brier": 0.11356026571968462,
+    "log_loss": 0.40043467374645675,
+    "observed_prevalence": 0.13036713752422238,
+    "mean_probability": 0.07183598318334788,
+    "auroc": 0.6453921026071148,
+    "average_precision": 0.20874957386369822
+  },
+  "intercept_equal_workload_selection_preserved": true
+}

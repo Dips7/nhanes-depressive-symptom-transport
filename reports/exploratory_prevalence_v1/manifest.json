@@ -1,0 +1,18 @@
+{
+  "completed_utc": "2026-10-15T13:09:17.011562+00:00",
+  "exploratory_after_final_test": true,
+  "input_sha256": {
+    "src/explore_prevalence_baseline.py": "13820eaf3cfa2f06e5579bd4e9acd06e61d4c8e74aa03d69da1ec190ee0dbc2c",
+    "manifests/participant_splits.csv": "150275193a5c74702905b95bdc226bb21744432cd0b4309b3d7adf055b399bc1",
+    "manifests/updating_samples_v1.csv": "dd006b282983d415d2dad901b9de04840b695e979d4c1d889de9353ef9bdd653",
+    "reports/final_v1/prediction_matrix.npz": "06da71a036fc2d1f9b1a623335aae51a3ab85071d7fa54f57484a5059faa8d75",
+    "reports/final_v1/draw_metrics.csv": "5645edd013aec2442bad99da89f56f4041ae9310d27038b70ad34039089c9665",
+    "data/processed/eligibility_2021-2023.csv": "21cd894c246ddb7f7ffe160a326bc853ecb3149306ca7a7b1188d0fa5724864c"
+  },
+  "baseline_draws": 120,
+  "paired_records": 459,
+  "checks": {
+    "pool_test_disjoint": true,
+    "independent_brier_identity": true
+  }
+}

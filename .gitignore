@@ -1,0 +1,17 @@
+# Python & virtual environments
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Raw & derived participant-level NHANES data (downloaded from CDC)
+data/
+models/
+
+# OS & editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

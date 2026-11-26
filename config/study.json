@@ -1,0 +1,23 @@
+{
+  "version": "0.1-data-audit",
+  "date": "2026-10-15",
+  "seed": 42,
+  "minimum_age": 18,
+  "outcome_threshold": 10,
+  "target_updating_fraction": 0.4,
+  "updating_budgets": [100, 250, 500, 1000],
+  "cycles": [
+    {"name": "2009-2010", "year": 2009, "suffix": "F", "role": "source_train"},
+    {"name": "2011-2012", "year": 2011, "suffix": "G", "role": "source_train"},
+    {"name": "2013-2014", "year": 2013, "suffix": "H", "role": "source_train"},
+    {"name": "2015-2016", "year": 2015, "suffix": "I", "role": "source_train"},
+    {"name": "2017-2018", "year": 2017, "suffix": "J", "role": "source_validation"},
+    {"name": "2021-2023", "year": 2021, "suffix": "L", "role": "target"}
+  ],
+  "modules": ["DEMO", "DPQ", "SMQ", "BMX"],
+  "compact_numeric": ["age", "income_poverty_ratio"],
+  "compact_categorical": ["sex_recorded", "education", "marital_status", "smoking_status"],
+  "expanded_candidate_numeric": ["bmi"],
+  "prohibited_predictors": ["phq9_total", "phq9_positive", "DPQ100", "cycle", "participant_id", "survey_stratum", "survey_psu", "survey_weight"],
+  "target_test_status": "locked_no_predictions"
+}

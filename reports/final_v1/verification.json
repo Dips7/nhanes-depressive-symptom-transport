@@ -1,0 +1,10 @@
+{
+  "all_passed": true,
+  "successful_draw_metrics_verified": 459,
+  "final_test_ids_verified": 3277,
+  "maximum_metric_difference": 2.220446049250313e-15,
+  "independent_primary_point": -0.002374124316627007,
+  "independent_bootstrap_replicates_verified": 20,
+  "maximum_independent_bootstrap_difference": 2.785315381115261e-15,
+  "final_artifact_and_freeze_hashes_verified": true
+}
